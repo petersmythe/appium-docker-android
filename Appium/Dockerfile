@@ -50,7 +50,7 @@ RUN apt-get -qqy update && \
 #===============
 # Set JAVA_HOME
 #===============
-ENV JAVA_HOME="/usr/lib/jvm/java-11-openjdk-armhf" \
+ENV JAVA_HOME="/usr/lib/jvm/java-11-openjdk-arm64" \
     PATH=$PATH:$JAVA_HOME/bin
 
 #===============================
